@@ -1,0 +1,178 @@
+#header-logo{
+    height: 10vh;
+    width: auto;
+}
+.nav-social 
+{
+    margin-left: 6vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: white;
+}
+.nav-link{
+    color: white !important;
+}
+.overlay 
+{
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(108, 216, 216, 0) !important; /* Set the background color to white with an opacity of 0.7 */
+   /* Add a blur effect to the background of the navigation bar */
+}
+.custom 
+{
+  background: rgba(0,109, 91, 0.7) !important;
+  
+  
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center center; 
+  text-align: center;
+  background-size: cover;
+  color: white;
+}
+
+
+ 
+  
+  .header-section{
+    background-image: url('/images/pexels-mike-b-114820.jpg') ;
+    height: 85vh;
+    background-size: cover; /* Set the size of the background image to cover the entire navigation bar */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center center; /* Center the background image vertically and horizontally */
+
+  }
+
+  #type-writer-section{
+    margin:25vh 20vw 25vh 20vw;
+    padding:5vh 2.5vw 5vh 2.5vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7) ;
+    text-align: center;
+        
+  }
+  .about-section 
+  {
+    
+    padding: 15vh 15vw 15vh 15vw;
+    background-image: linear-gradient(to bottom right,#006D5B,#30D5C8);
+    color: white;
+    
+  }
+  .about-section h4 
+  {
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-decoration: underline;
+  }
+  .about-section p {
+    border-bottom: solid 2.5px #733E1F;
+    justify-content: center;
+    padding-bottom: 2.5vh;
+  }
+  .service-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-image: linear-gradient(to bottom left,#30D5C8,#006D5B);
+    padding: 5vh 5vw 5vh 5vw;
+    
+  }
+  .image-section img{
+    height: 65vh;
+    width: auto;
+  }
+  .content-section{
+    height: 60vh;
+    padding: 10vh 10vw 10vh 10vw;
+    color: white;
+    border-radius: 4.5px;
+  }
+  .content-section h2 
+  {
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    text-decoration: underline;
+  }
+  .list-item{
+    padding:1.5vh 0.5vw 1.5vh 0.5vw;
+  }
+  .content-section ul li {
+    list-style-type: none;
+  }
+  .client-content-section
+  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+    grid-column-gap: 2vw;
+    overflow: hidden;
+  }
+  .client-content-section img{
+    height: 20vh;
+    text-align: center ;
+    padding:2.5vh 2.5vw 2.5vh 2.5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    background-color: white;
+    margin-bottom: 2.5vh;
+  }
+   .client-section{
+    background-image: linear-gradient(to bottom right,#006D5B,#30D5C8);
+    color: white;
+    padding :5vh 2.5vw 5vh 2.5vw;
+  } 
+  .client-section h2 {
+    text-align: center;
+    margin-bottom: 5vh;
+    text-decoration: underline;
+  }
+  .contact-section{
+    background-image: linear-gradient(to bottom left,#30D5C8,#006D5B);
+    color: white;
+  }
+  .nav-item:hover {
+    color: #fff;
+  }
+  .contact-section h2{
+    text-align: center;
+    margin-bottom: 2.5vh;
+    text-decoration: underline;
+  }
+  #contact-form{
+    padding: 5vh 5vw 5vh 5vw;
+  }
+  .footer-section
+  {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .social-media-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 5vh 5vw 5vh 5vw;
+    
+  }
+  .social-media img 
+{
+    height:7.5vh;
+    width:auto;
+     margin-left: auto;
+    margin-right: auto; 
+    /* padding-right: 5vw;
+    padding-left: 5vw;
+     */
+    background-color: wheat;
+}
+.copyright-section
+{
+    text-align: center;
+    padding: 7.5vh 5vw 7.5vh 5vw;
+}
+#footer{
+  background-image: linear-gradient(to bottom right,#006D5B,#30D5C8);
+  color: white;
+}
