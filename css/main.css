@@ -22,19 +22,22 @@
 }
 .custom 
 {
-  background: rgba(0,109, 91, 0.7) !important;
-  
-  
-  background-repeat: no-repeat; /* Prevent the background image from repeating */
-  background-position: center center; 
-  text-align: center;
-  background-size: cover;
+  background: rgb(142, 242, 142) !important;
   color: white;
 }
 
 
- 
-  
+ .landing-section{
+  display: flex; /* set the container to be a flex container */
+  justify-content: space-between; /* align items with space between them */
+  align-items: center; /* align items vertically in the center */
+  padding:5vh 5vw 5vw 5vh;
+  background: rgba(142, 242, 142);
+ }
+  #image-section img{
+    height: 60vh;
+    width: auto;
+  }
   .header-section{
     background-image: url('/images/cinema-and-film-production-2021-08-26-18-26-19-utc.jpeg') ;
     height: 85vh;
@@ -48,7 +51,7 @@
     margin:25vh 20vw 25vh 20vw;
     padding:5vh 2.5vw 5vh 2.5vw;
     color: white;
-    background-color: rgba(0, 0, 0, 0.7) ;
+   
     text-align: center;
         
   }
@@ -56,8 +59,8 @@
   {
     
     padding: 15vh 15vw 15vh 15vw;
-    background-image: linear-gradient(to bottom right,#006D5B,#f3f8f8);
-    color: white;
+    
+    color: black;
     
   }
   .about-section h4 
@@ -75,9 +78,11 @@
   .service-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-image: linear-gradient(to bottom left,#f3f8f8,#006D5B);
+    color: black;
     padding: 5vh 5vw 5vh 5vw;
-    
+    background-color: rgb(205, 200, 216);
+    margin: 5vh 5vw 5vh 5vw;
+    border-radius: 6.5px;
   }
   .image-section img{
     height: 65vh;
@@ -86,8 +91,9 @@
   .content-section{
     height: 60vh;
     padding: 10vh 10vw 10vh 10vw;
-    color: white;
+    color:black;
     border-radius: 4.5px;
+    
   }
   .content-section h2 
   {
@@ -116,9 +122,11 @@
     height: 100%;
   }
    .client-section{
-    background-image: linear-gradient(to bottom right,#006D5B,#f3f8f8);
-    color: white;
+    background: rgb(205, 200, 216);
+    color: black;
     padding :5vh 2.5vw 5vh 2.5vw;
+    margin: 5vh 5vw 5vh 5vw;
+    border-radius: 6.5px;
   } 
   .client-section h2 {
     text-align: center;
@@ -126,8 +134,10 @@
     text-decoration: underline;
   }
   .contact-section{
-    background-image: linear-gradient(to bottom left,#f3f8f8,#006D5B);
+    background: rgb(205, 200, 216);
     color: white;
+    padding: 5vh 5vw 5vh 5vw;
+    margin: 5vh 5vw 5vh 5vw;
   }
   .nav-item:hover {
     color: #fff;
@@ -168,7 +178,7 @@
     padding: 7.5vh 5vw 7.5vh 5vw;
 }
 #footer{
-  background-image: linear-gradient(to bottom right,#006D5B,#f3f8f8);
+  background: rgb(142, 242, 142);
   color: white;
 }
 .horizontal{
